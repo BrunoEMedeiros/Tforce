@@ -3,13 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
   tags:
   - ground
   - bullet
-=======
-  tags: []
->>>>>>> 7982a888086c8e4bd4d6256961fe5b425affa6c8
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -19,11 +16,7 @@ TagManager:
   - UI
   - 
   - 
-<<<<<<< HEAD
   - ground
-=======
-  - 
->>>>>>> 7982a888086c8e4bd4d6256961fe5b425affa6c8
   - 
   - 
   - 
