@@ -7,10 +7,7 @@ TagManager:
   - ground
   - bullet
   - enemy
-<<<<<<< HEAD
   - coin
-=======
->>>>>>> dcc816da616cb49e46a793affa4e494fcee44d35
   layers:
   - Default
   - TransparentFX

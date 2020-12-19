@@ -45,7 +45,6 @@ public class Player : MonoBehaviour
             smoke.SetActive(false); // Desativar fumaca do jetpack
         }
     }
-<<<<<<< HEAD
 
     void OnTriggerEnter2D(Collider2D collision) {
 
@@ -55,6 +54,4 @@ public class Player : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
-=======
->>>>>>> dcc816da616cb49e46a793affa4e494fcee44d35
 }

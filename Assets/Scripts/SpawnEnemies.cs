@@ -15,7 +15,6 @@ public class SpawnEnemies : MonoBehaviour
 
     void Update()
     {
-<<<<<<< HEAD
         if(GameController.current.PlayerIsAlive)
         {
             timeControl += Time.deltaTime;
@@ -28,17 +27,6 @@ public class SpawnEnemies : MonoBehaviour
                 initialTime = Random.Range(minTime, maxTime);
                 timeControl = 0;
             }
-=======
-        timeControl += Time.deltaTime;
-
-        if(timeControl >= initialTime)
-        {
-            Instantiate(EnemiesList[Random.Range(0, EnemiesList.Count)], 
-                transform.position + new Vector3(0, Random.Range(-2,2), 0), transform.rotation);
-
-            initialTime = Random.Range(minTime, maxTime);
-            timeControl = 0;
->>>>>>> dcc816da616cb49e46a793affa4e494fcee44d35
         }
         
     }
